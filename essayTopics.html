@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="essayTopics">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html" class="ui-btn-active ui-state-persist">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Essay Topics</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more essay topics needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">How does Lord Henry impact Dorian's life?</li>
+					<li data-theme="d">When the two are first introduced to one another by Basil, Basil jokes with Lord Henry about not spoiling or influencing Dorian, as it would be bad.</li>
+					<li data-theme="c">Basil understands that Lord Henry has no good intentions with Dorian, as Lord Henry would use him as a disciple to teach him a way of life of luxury and beauty that would eventually result in nothing good.</li>
+					<li data-theme="d">Lord Henry sees young Dorian, as a perfect candidate to impose his will, Dorian is a beautiful man, with much wealth, who also seems easily manipulated.</li>
+					<li data-theme="c">Lord Henry uses this to his advantage as he works to show Dorian all the possible pleasures in life.</li>
+					<li data-theme="d">Once Henry has captivated Dorian with the possibilities of grandeur he offers him an opportunity for a life of nothing but pleasure if he is willing to sell his soul.</li>
+					<li data-theme="c">Dorian is willing to take him up on this due to Henry's convincing nature.</li>
+					<li data-theme="d">Though Henry is very convincing in his philosophy, he shows throughout he is not willing to act on it himself, as he would much rather watch someone else take the risks.</li>
+					<li data-theme="c">Ultimately Henry destroys Dorian with his instruction.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The author suggests that there is no morality in works of literature or art, and that they can only be badly put together or well put together. After reading this novel would you agree?</li>
+					<li data-theme="d">Though the author makes this argument it seems to be quite the opposite in the novel.</li>
+					<li data-theme="c">Dorian through his instruction from Lord Henry learns of something known as the yellow book.</li>
+					<li data-theme="d">The yellow book seems to teach him very harmful things, all the while Lord Henry says it is nothing more than literature and can do no such thing.</li>
+					<li data-theme="c">In the end it seems as if the yellow book has poisoned Dorian leading him to his eventual downfall.</li>
+					<li data-theme="d">This effect seems to contradict the author’s argument that books cannot instill morality, as the yellow book changes Dorian's morals to the point where it destroys his life.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Picture of Dorian Gray</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
